@@ -1,21 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-
-const data = [
-  { id: 1, skill: 'HTML', pic: '/icon/html-icon.png' },
-  { id: 2, skill: 'JavaScript', pic: '/icon/javascript-icon.png' },
-  { id: 3, skill: 'TypeScript', pic: '/icon/typescript-icon.png' },
-  { id: 4, skill: 'CSS', pic: '/icon/css-icon.png' },
-  { id: 5, skill: 'TailwindCSS', pic: '/icon/tailwind-icon.png' },
-  { id: 6, skill: 'Chakra UI', pic: '/icon/chakraui-icon.png' },
-  { id: 7, skill: 'React', pic: '/icon/react-icon.png' },
-  { id: 8, skill: 'Next.js', pic: '/icon/nextjs-icon.svg' },
-  { id: 9, skill: 'MongoDB', pic: '/icon/mongodb-icon.png' },
-  { id: 10, skill: 'PostgreSQL', pic: '/icon/postgresql-icon.png' },
-  { id: 11, skill: 'Postman', pic: '/icon/postman-icon.png' },
-  { id: 12, skill: 'Node.js', pic: '/icon/nodejs-icon.png' },
-  { id: 13, skill: 'Git', pic: '/icon/git-icon.png' },
-];
+import { skillsData } from '@/utils/constant';
 
 const Resume: React.FC = () => {
   return (
@@ -68,7 +53,7 @@ const Resume: React.FC = () => {
           S K I L L S
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
-          {data.map((item) => (
+          {skillsData.map((item) => (
             <div key={item.id} className="col-span-1">
               <button className="flex items-center gap-3 w-full border border-blue-300 rounded-md px-4 py-2 text-blue-600 hover:bg-blue-600 hover:text-white active:bg-blue-700 active:scale-95">
                 <div className="w-8 h-8 rounded-full overflow-hidden flex items-center justify-center bg-white border border-blue-300">

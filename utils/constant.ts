@@ -1,0 +1,15 @@
+export const skillsData = [
+  { id: 1, skill: 'HTML', pic: '/icon/html-icon.png' },
+  { id: 2, skill: 'JavaScript', pic: '/icon/javascript-icon.png' },
+  { id: 3, skill: 'TypeScript', pic: '/icon/typescript-icon.png' },
+  { id: 4, skill: 'CSS', pic: '/icon/css-icon.png' },
+  { id: 5, skill: 'TailwindCSS', pic: '/icon/tailwind-icon.png' },
+  { id: 6, skill: 'Chakra UI', pic: '/icon/chakraui-icon.png' },
+  { id: 7, skill: 'React', pic: '/icon/react-icon.png' },
+  { id: 8, skill: 'Next.js', pic: '/icon/nextjs-icon.svg' },
+  { id: 9, skill: 'MongoDB', pic: '/icon/mongodb-icon.png' },
+  { id: 10, skill: 'PostgreSQL', pic: '/icon/postgresql-icon.png' },
+  { id: 11, skill: 'Postman', pic: '/icon/postman-icon.png' },
+  { id: 12, skill: 'Node.js', pic: '/icon/nodejs-icon.png' },
+  { id: 13, skill: 'Git', pic: '/icon/git-icon.png' },
+];
